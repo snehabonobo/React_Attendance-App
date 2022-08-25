@@ -1,0 +1,39 @@
+.HomePage{
+    background-color: #ebf0f2;
+    width: 100vw;
+    height: 88.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.HomeContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebf0f2;
+}
+
+.HomeContainer>img{
+    filter: drop-shadow(2px 4px 8px grey);
+    
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 599px) {
+    .HomePage{
+      width: 99.9%;
+      
+    }
+    .HomeContainer>img{
+        width: 160%;
+    }
+
+  }
+
+  @media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+    .HomeContainer>img{
+      width: 160%;
+    }
+  }

@@ -1,0 +1,161 @@
+.BackPage{
+    background-color: white;
+    width: 100vw;
+    height: 88.8vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .CheckContainer{
+    margin-top: 1.5cm;
+    border: 2.5px solid grey;
+    height: 75%;
+    width: 30%;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    -webkit-box-shadow: 3px 3px 15px 2px #000000; 
+  box-shadow: 3px 3px 15px 2px #000000;
+  
+    
+  }
+  
+  .CheckContainer>img{
+    margin-top: 0.5cm;
+    margin-left: 3.8cm;
+    width: 12vmax;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(2px 4px 8px grey);
+  }
+  
+  
+  
+  .MemberContainer{
+    height: 65%;
+    width: 68%;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    margin-top: 0cm;
+    margin-left: 1.8cm;
+    justify-content: center;
+  
+  }
+  
+  .MemberContainer>h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0.5cm;
+    margin-left: 3cm;
+    text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
+  }
+  
+  .btn{
+    margin-top: 0.8cm;
+    margin-left: 4.38cm;
+    height: 12%;
+    width: 70%;
+    overflow:auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+      background-color: #8DC3A7;
+      color: black;
+      font-size: 16px;
+      border-radius: 12px;
+      -webkit-box-shadow: -2px 0px 15px -3px #000000; 
+      box-shadow: -2px 0px 15px -3px #000000;
+      
+    }
+
+    .btn:hover{
+      background-color: #6BAF92;
+      transition: 2s;
+  }
+  
+  
+    .btnn{
+      margin-top: 0.4cm;
+    margin-left: 4.38cm;
+    
+    height: 12%;
+    width: 70%;
+    overflow:auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+      background-color: #e27978;
+      color: black;
+      font-size: 16px;
+      border-radius: 12px;
+      -webkit-box-shadow: -2px 0px 15px -3px #000000; 
+      box-shadow: -2px 0px 15px -3px #000000;
+    }
+
+    .btnn:hover{
+      background-color: #df6967;
+      transition: 1s;
+    }
+
+    .CheckContainer>h2{
+      font-size: 10px;
+    font-weight: bold;
+    margin-left: 3.8cm;
+    margin-right: 3.5cm;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.2em grey;
+    }
+      
+    .loc{
+      text-shadow: 1px 1px 1px grey, 0 0 0em grey, 0 0 0.2em grey;
+    }
+
+    .mod>p{
+      width: 1px;
+      border: 1px black;
+      margin: 0 auto;
+      display: flex;
+    justify-content: center;
+    text-align: center;
+    background: red;
+    }
+
+
+
+
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 599px) {
+      .BackPage{
+        width: 50%;
+      }
+      .CheckContainer{
+        width: 50%;
+        display: inline-table;
+        margin-left: 5cm;
+      }
+      .CheckContainer>img{
+        margin-left: 3.8cm;
+      }
+      .MemberContainer{
+        width: 78%;
+        margin-left: 1.1cm;
+    justify-content: center;
+    height: 70%;
+      }
+      .MemberContainer>h1{
+        font-size: 15px;
+        
+        margin-left: 2.8cm;
+        margin-bottom: 1cm;
+      }
+      .loc{
+        font-size: 12px;
+        margin-bottom: 1cm;
+      }
+      .btn{
+        
+        margin-left: 3.8cm;
+      }
+      .btnn{
+        margin-top: 1cm;
+        margin-left: 3.8cm;
+      }
+     
+    }
